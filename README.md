@@ -28,6 +28,10 @@
   - Pull Request를 생성한다.(개발자1를 Reviewer로 지정하고 개발리더를 Assigner로 할당한다.)
   - 개발자1가 생성한 Pull Request에 대하여 코드리뷰를 수행한다.
 
+### 리팩토링 수행하기
+
+![Alt text](C:\Users\SDS\Pictures\createbranch.gif)
+
   
 
   
