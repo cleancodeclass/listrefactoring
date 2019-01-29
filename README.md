@@ -29,8 +29,9 @@
   - 개발자1가 생성한 Pull Request에 대하여 코드리뷰를 수행한다.
 
 ### 리팩토링 수행하기
+1. 개발리더는 리팩토링 브랜치를 생성합니다. 브랜치명은 팀명_refactoring_yyyymmdd로 작성하고 master 브랜치로부터 생성합니다.
 
-![Alt text](https://user-images.githubusercontent.com/8435910/51890613-d8978a80-23df-11e9-9b99-3cea2d79aa82.GIF)
+![리팩토링 브랜치 생성하기](https://user-images.githubusercontent.com/8435910/51890613-d8978a80-23df-11e9-9b99-3cea2d79aa82.GIF)
 
   
 
