@@ -1,6 +1,4 @@
-# listrefactoring
-
-1. Code Smell 찾아 보기
+### Code Smell 찾아 보기
   - if조건문안의 부정형
   - Magic Number : 의미가 모호한 문자열이나 상수
   - 복잡한 if 조건문
