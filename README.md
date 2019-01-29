@@ -30,7 +30,7 @@
 
 ### 리팩토링 수행하기
 
-![Alt text](C:\Users\SDS\Pictures\createbranch.gif)
+![Alt text](https://user-images.githubusercontent.com/8435910/51890613-d8978a80-23df-11e9-9b99-3cea2d79aa82.GIF)
 
   
 
