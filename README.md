@@ -33,6 +33,43 @@
 ![리팩토링 브랜치 생성하기](https://user-images.githubusercontent.com/8435910/51890613-d8978a80-23df-11e9-9b99-3cea2d79aa82.GIF)
 2. 개발자1은 feature 브랜치를 생성합니다.
 ![feature 브랜치 생성하기](https://user-images.githubusercontent.com/8435910/51891076-5b6d1500-23e1-11e9-90c0-16676f87b897.GIF)
+3. 개발자1은 로컬 리파지토리로 원격 Git을 clone합니다.
+![Git Clone하기](https://user-images.githubusercontent.com/8435910/51891688-2eb9fd00-23e3-11e9-88e2-22213f2a4156.GIF)
+![Git Clone하기](https://user-images.githubusercontent.com/8435910/51891694-31b4ed80-23e3-11e9-9c3e-bc8b595ae915.GIF)
+![Git Clone하기](https://user-images.githubusercontent.com/8435910/51891697-34174780-23e3-11e9-8522-a3246a8e59b2.GIF)
+4. 개발자1은 코드를 수정합니다.
+*변경전 코드
+<pre><code>
+package collection;
+
+public class List1 {
+	private Object[] elements = new Object[10];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (!readOnly) {
+			int newSize = size + 1;
+			
+			if ( newSize > elements.length) {
+				Object[] newElements = new Object[elements.length + 10];
+				for (int i = 0; i < size; i++) {
+					newElements[i] = elements[i];
+				}
+
+				elements = newElements;
+			}
+
+			elements[size] = element;
+			size++;
+		}
+	}
+}
+</code></pre>
+
+
+
+5. 개발자1은 수정된 코드를 PUSH합니다.
 
 
 
