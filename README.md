@@ -114,9 +114,273 @@ public class List1 {
 
 10. 개발자2는 리뷰를 수행하고 개발리더는 그 결과를 확인하고 Merge 합니다.
 
+11. 다음 이슈들을 동일한 방법으로 순서대로 수행해 봅니다.
+
+- 샘플_If문 부정형을 긍정형으로 변경 : 개발자2
+<pre><code>
+//변경전 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (!readOnly) {
+			int newSize = size + 1;
+			
+			if ( newSize > elements.length) {
+				Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+				for (int i = 0; i < size; i++) {
+					newElements[i] = elements[i];
+				}
+
+				elements = newElements;
+			}
+
+			elements[size] = element;
+			size++;
+		}
+	}
+}
+</code></pre>
+<pre><code>
+//변경후 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (readOnly)
+			return;
+		int newSize = size + 1;
+		if ( newSize > elements.length) {
+			Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+			for (int i = 0; i < size; i++) {
+				newElements[i] = elements[i];
+			}
+
+			elements = newElements;
+		}
+		elements[size] = element;
+		size++;
+	}
+}
+</code></pre>
+
+- 샘플_if문 안의 메소드 추출 : 개발자3
+<pre><code>
+//변경전 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (readOnly)
+			return;
+		int newSize = size + 1;
+		if ( newSize > elements.length) {
+			Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+			for (int i = 0; i < size; i++) {
+				newElements[i] = elements[i];
+			}
+
+			elements = newElements;
+		}
+		elements[size] = element;
+		size++;
+	}
+}
+</code></pre>
+<pre><code>
+//변경후 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (readOnly)
+			return;
+		if ( isElementStoreFull()) {
+			Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+			for (int i = 0; i < size; i++) {
+				newElements[i] = elements[i];
+			}
+
+			elements = newElements;
+		}
+		elements[size] = element;
+		size++;
+	}
+
+	private boolean isElementStoreFull() {
+		return size + 1 > elements.length;
+	}
+}
+</code></pre>
 
 
+- 샘플_If절 안의 로직 메소드 추출 : 개발자4
 
+
+<pre><code>
+//변경전 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (readOnly)
+			return;
+		if ( isElementStoreFull()) {
+			Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+			for (int i = 0; i < size; i++) {
+				newElements[i] = elements[i];
+			}
+
+			elements = newElements;
+		}
+		elements[size] = element;
+		size++;
+	}
+
+	private boolean isElementStoreFull() {
+		return size + 1 > elements.length;
+	}
+}
+</code></pre>
+<pre><code>
+//변경후 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (readOnly)
+			return;
+		if ( isElementStoreFull()) {
+			increaseElementStore();
+		}
+		elements[size] = element;
+		size++;
+	}
+
+	private void increaseElementStore() {
+		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i];
+		}
+
+		elements = newElements;
+	}
+
+	private boolean isElementStoreFull() {
+		return size + 1 > elements.length;
+	}
+}
+</code></pre>
+
+12. 개발리더는 ReleaseCandidate_YYYYMMDD를 작성합니다.
+
+13. Releace 버전에 대하여 테스트를 수행하던 중 결함이 발견되어 조치합니다.
+    위와 같은 방법으로 Feature 브랜치를 생성하고 Refactoring 브랜치에 Merge 합니다.(개발자1 수행)
+//변경전 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (readOnly)
+			return;
+		if ( isElementStoreFull()) {
+			increaseElementStore();
+		}
+		elements[size] = element;
+		size++;
+	}
+
+	private void increaseElementStore() {
+		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i];
+		}
+
+		elements = newElements;
+	}
+
+	private boolean isElementStoreFull() {
+		return size + 1 > elements.length;
+	}
+}
+</code></pre>
+<pre><code>
+//변경후 코드
+package collection;
+
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (readOnly)
+			return;
+		if ( isElementStoreFull()) {
+			increaseElementStore();
+		}
+		addElementAtEnd(element);
+	}
+
+	private void addElementAtEnd(Object element) {
+		elements[size] = element;
+		size++;
+	}
+
+	private void increaseElementStore() {
+		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i];
+		}
+
+		elements = newElements;
+	}
+
+	private boolean isElementStoreFull() {
+		return size + 1 > elements.length;
+	}
+}
+</code></pre>    
+
+14. 개발리더는 Cherry Pick 기능을 이용하여 Release 브랜치에 해당 Commit을 반영합니다.
+
+15. 개발리더는 Release를 생성합니다.
 
   
 
