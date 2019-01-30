@@ -38,8 +38,8 @@
 ![Git Clone하기](https://user-images.githubusercontent.com/8435910/51891694-31b4ed80-23e3-11e9-9c3e-bc8b595ae915.GIF)
 ![Git Clone하기](https://user-images.githubusercontent.com/8435910/51891697-34174780-23e3-11e9-8522-a3246a8e59b2.GIF)
 4. 개발자1은 코드를 수정합니다.
-*변경전 코드
 <pre><code>
+//변경전 코드
 package collection;
 
 public class List1 {
@@ -66,10 +66,42 @@ public class List1 {
 	}
 }
 </code></pre>
+<pre><code>
+//변경후 코드
+package collection;
 
+public class List1 {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private Object[] elements = new Object[STORE_SIZE_INCREMENT];
+	private boolean readOnly;
+	private int size = 0;
 
+	public void add(Object element) {
+		if (!readOnly) {
+			int newSize = size + 1;
+			
+			if ( newSize > elements.length) {
+				Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+				for (int i = 0; i < size; i++) {
+					newElements[i] = elements[i];
+				}
+
+				elements = newElements;
+			}
+
+			elements[size] = element;
+			size++;
+		}
+	}
+}
+</code></pre>
 
 5. 개발자1은 수정된 코드를 PUSH합니다.
+이때 Commit Message를 잘 작성하도록 합니다.
+![PUSH하기](https://user-images.githubusercontent.com/8435910/51955866-ce7d9680-2488-11e9-9929-b3c186bde492.GIF)
+
+6. 개발자1은 변경된 코드를 반영하기 위하여 Pull Request를 생성합니다.
+![Pull Request 생성](https://user-images.githubusercontent.com/8435910/51956017-65e2e980-2489-11e9-90db-32d03750282f.GIF)
 
 
 
