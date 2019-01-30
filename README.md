@@ -100,8 +100,21 @@ public class List1 {
 이때 Commit Message를 잘 작성하도록 합니다.
 ![PUSH하기](https://user-images.githubusercontent.com/8435910/51955866-ce7d9680-2488-11e9-9929-b3c186bde492.GIF)
 
-6. 개발자1은 변경된 코드를 반영하기 위하여 Pull Request를 생성합니다.
+6. 개발자1은 변경된 코드를 반영하기 위하여 Pull Request를 생성합니다.(Feature 브랜치 -> refactoring 브랜치)
 ![Pull Request 생성](https://user-images.githubusercontent.com/8435910/51956017-65e2e980-2489-11e9-90db-32d03750282f.GIF)
+
+7. 개발자1은 본문에 관련 이슈를 연결합니다.
+관련이슈 : #1
+
+8. 개발자1은 개발자 자가 점검을 실시합니다.
+![selfcheck](https://user-images.githubusercontent.com/8435910/51969438-bf620d00-24b7-11e9-8df4-45e2acd0d295.GIF)
+
+9. Reviewers로 개발자2를 지정하고 Assignees로 개발리더를 지정합니다.
+![assign](https://user-images.githubusercontent.com/8435910/51969457-ce48bf80-24b7-11e9-9f8c-737d52594398.GIF)
+
+10. 개발자2는 리뷰를 수행하고 개발리더는 그 결과를 확인하고 Merge 합니다.
+
+
 
 
 
