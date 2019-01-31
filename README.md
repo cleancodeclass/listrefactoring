@@ -113,6 +113,17 @@ public class List1 {
 ![assign](https://user-images.githubusercontent.com/8435910/51969457-ce48bf80-24b7-11e9-9f8c-737d52594398.GIF)
 
 10. 개발자2는 리뷰를 수행하고 개발리더는 그 결과를 확인하고 Merge 합니다.
+리뷰가 수행되지 않으면 아래와 같이 Merge 버튼이 비활성화되어 Merge가 불가능합니다.
+![needreview](https://user-images.githubusercontent.com/8435910/52025478-bc166200-2547-11e9-82a7-4e9c3f25d699.GIF)
+
+리뷰어는 변경된 코드를 확인하여 리뷰의견을 입력하고 아래와 같이 리뷰 완료 처리합니다.
+![comment](https://user-images.githubusercontent.com/8435910/52025648-84f48080-2548-11e9-8a45-755ec30f355a.GIF)
+
+![completereview](https://user-images.githubusercontent.com/8435910/52025784-051ae600-2549-11e9-9ec3-b5421c7cdba2.GIF)
+
+
+    
+
 
 11. 다음 이슈들을 동일한 방법으로 순서대로 수행해 봅니다.
 
