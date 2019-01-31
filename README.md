@@ -1,3 +1,10 @@
+### Centralized VC vs. Distributed VC
+![gitfeature](https://user-images.githubusercontent.com/8435910/52028522-ad817800-2552-11e9-8877-c4b91ab2bfd7.GIF)
+
+
+### Git 브랜치
+![gitbranch](https://user-images.githubusercontent.com/8435910/52028327-f38a0c00-2551-11e9-9458-88961fb5c024.png)
+
 ### Code Smell 찾아 보기
 * Magic Number
   - 특수한 값을 가지는 숫자를 의미한다.
