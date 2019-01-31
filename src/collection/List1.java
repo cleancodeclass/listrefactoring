@@ -7,20 +7,29 @@ public class List1 {
 	private int size = 0;
 
 	public void add(Object element) {
-		if (!readOnly) {
-			int newSize = size + 1;
-			
-			if ( newSize > elements.length) {
-				Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
-				for (int i = 0; i < size; i++) {
-					newElements[i] = elements[i];
-				}
-
-				elements = newElements;
-			}
-
-			elements[size] = element;
-			size++;
+		if (readOnly)
+			return;
+		if ( isElementStoreFull()) {
+			increaseElementStore();
 		}
+		addElementAtEnd(element);
+	}
+
+	private void addElementAtEnd(Object element) {
+		elements[size] = element;
+		size++;
+	}
+
+	private void increaseElementStore() {
+		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i];
+		}
+
+		elements = newElements;
+	}
+
+	private boolean isElementStoreFull() {
+		return size + 1 > elements.length;
 	}
 }
