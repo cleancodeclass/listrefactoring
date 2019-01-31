@@ -320,7 +320,7 @@ public class List1 {
 }
 </code></pre>
 
-12. 개발리더는 ReleaseCandidate_YYYYMMDD를 작성합니다.
+12. 개발리더는 Release 브랜치를 Refactoring 브랜치를 기반으로 생성합니다.(브랜치명 : 팀명_release_yyyymmdd)
 
 13. Releace 버전에 대하여 테스트를 수행하던 중 결함이 발견되어 조치합니다.
     위와 같은 방법으로 Feature 브랜치를 생성하고 Refactoring 브랜치에 Merge 합니다.(개발자1 수행)
@@ -396,9 +396,25 @@ public class List1 {
 }
 </code></pre>    
 
-14. 개발리더는 Cherry Pick 기능을 이용하여 Release 브랜치에 해당 Commit을 반영합니다.
+14. 개발리더는 로컬에서 Chetty Pick 기능을 이용하여 변경된 Commit을 Release 버전에 반영합니다.
 
-15. 개발리더는 Release를 생성합니다.
+D:\git\listrefactoring>git checkout 팀명_release_20190201
+Switched to a new branch '팀명_release_20190201'
+Branch '팀명_release_20190201' set up to track remote branch '팀명_release_20190201' from 'origin'.
+
+D:\git\listrefactoring>git cherry-pick  59eac16
+[팀명_release_20190201 43ffa86] extract method
+ Author: Pablo <dongsik2026@naver.com>
+ Date: Thu Jan 31 12:42:56 2019 +0900
+ 1 file changed, 21 insertions(+), 12 deletions(-)
+ 
+ D:\git\listrefactoring>git push
+ 
+15. 개발리더는 Release에서 새로운 릴리즈 버전을 생성합니다.
+![createrelease](https://user-images.githubusercontent.com/8435910/52030182-f557cd80-2559-11e9-8054-358f9ec02bfd.GIF)
+다음과 같이 정기 반영 내용이 확인됩니다.
+![releasecomplete](https://user-images.githubusercontent.com/8435910/52030233-3fd94a00-255a-11e9-92da-bd4dab05889a.GIF)
+
 
   
 
