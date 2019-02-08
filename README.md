@@ -4,7 +4,7 @@
   - 서로를 존중
   - 적극적으로 대화하고 실습에 참여
   - 코드는 돌아가면서 작성(Driver)하거나 리뷰 및 의견 제시 (Driver ↔ Observer or Navigator)
-  - 예를 들면, 테스트 코드 작성  실제 코드 작성  코드 개선 등의 순서로 진행하되 짧은 주기로 교대
+  - 예를 들면, 테스트 코드 작성 , 실제 코드 작성 , 코드 개선 등의 순서로 진행하되 짧은 주기로 교대
 
 ### Centralized VC vs. Distributed VC
 ![gitfeature](https://user-images.githubusercontent.com/8435910/52028522-ad817800-2552-11e9-8877-c4b91ab2bfd7.GIF)
@@ -129,7 +129,7 @@ public class List1 {
   - Pull Request에 대한 Merge를 수행한다.
   - 릴리즈 브랜치를 생성한다.
   - 릴리즈 버전에서 Cherry-pick을 수행한다.
-  - 배포를 위한 릴리즐르 수행한다.
+  - 배포를 위한 릴리즈를 수행한다.
 
 * 개발자1
   - Feature 브랜치를 생성한다.
