@@ -298,7 +298,7 @@ public class List1 {
 }
 </code></pre>
 
-- 샘플_if문 안의 메소드 추출 : 개발자3
+- 샘플_if문 안의 메소드 추출 : 개발자1
 <pre><code>
 //변경전 코드
 package collection;
@@ -358,7 +358,7 @@ public class List1 {
 </code></pre>
 
 
-- 샘플_If절 안의 로직 메소드 추출 : 개발자4
+- 샘플_If절 안의 로직 메소드 추출 : 개발자2
 
 
 <pre><code>
