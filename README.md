@@ -28,6 +28,19 @@
  
 ※ Google의 경우  하나의 PR은 2명의 리뷰어를 지정하고 코드 수정 이후 4시간 이내에 리뷰를 받으며 24시간 이내에 Merge를 하고 PR당 7건의 Commit과 10개 미만의 파일, 평균 12.5개의 리뷰 Comment를 작성한다고 합니다.
 
+ * 코드리뷰 Ground Rules (The Ten Commandments of Egoless Programming)
+   - Understand and accept that you will make mistakes.
+   - You are not your code.
+   - No matter how much "karate" you know, someone else will always know more.
+   - Don't rewrite code without consultation.
+   - Treat people who know less than you with respect, deference, and patience.
+   - The only constant in the world is change.
+   - The only true authority stems from knowledge, not from position.
+   - Fight for what you believe, but gracefully accept defeat.
+   - Don't be "the guy in the room."
+   - Critique code instead of people – be kind to the coder, not to the code.
+   
+
 
 
 
