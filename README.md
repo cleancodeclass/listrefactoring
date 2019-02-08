@@ -20,8 +20,7 @@
   - 작성방법
    제목 : 수정사항을 한 줄로 요약
    내용 : 한 행을 띄고 수정 내용에 대한 이해가 쉽도록 작성
- 
- * 코드리뷰
+* 코드리뷰
   - 해결방안에 대한 구체적인 가이드
   - 아낌없는 칭찬
   - 수정된 코드에 대하여만 리뷰 집중
@@ -35,26 +34,22 @@
 
    - You are not your code.
 
-![2](https://image.slidesharecdn.com/humanarchitecture-140126100824-phpapp01/95/social-human-architecture-for-beginners-40-638.jpg?cb=1390731219)
-   
+   ![2](https://image.slidesharecdn.com/humanarchitecture-140126100824-phpapp01/95/social-human-architecture-for-beginners-40-638.jpg?cb=1390731219)
    
    - No matter how much "karate" you know, someone else will always know more.
 
-![3](https://image.slidesharecdn.com/humanarchitecture-140126100824-phpapp01/95/social-human-architecture-for-beginners-40-638.jpg?cb=1390731219)
-   
-  
+   ![3](https://image.slidesharecdn.com/humanarchitecture-140126100824-phpapp01/95/social-human-architecture-for-beginners-40-638.jpg?cb=1390731219)
    
    - Don't rewrite code without consultation.
 
-![4](https://www.yegor256.com/images/2015/02/kim-jong-un-doing-code-review.png)
-
+   ![4](https://www.yegor256.com/images/2015/02/kim-jong-un-doing-code-review.png)
 
    - Treat people who know less than you with respect, deference, and patience.
+
    ![5](http://static.hubzum.zumst.com/hubzum/2018/12/17/13/410efd687209410ca3405a12036c6e19.jpg)
    
-   
-   
    - The only constant in the world is change.
+
    ![6](https://iconshots.com/wp-content/uploads/2018/05/Bane-Boon.jpg)
    
    - The only true authority stems from knowledge, not from position.
