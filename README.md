@@ -30,7 +30,8 @@
 
  * 코드리뷰 Ground Rules (The Ten Commandments of Egoless Programming)
    - Understand and accept that you will make mistakes.
-   ![1](https://user-images.githubusercontent.com/8435910/52454160-ef7f6f00-2b8d-11e9-8811-9f837c5db509.png)
+   
+   ![1](https://t1.daumcdn.net/cfile/tistory/2742BD3758161FC62A)
 
    - You are not your code.
    - No matter how much "karate" you know, someone else will always know more.
