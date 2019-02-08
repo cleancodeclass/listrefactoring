@@ -38,7 +38,7 @@
    
    - No matter how much "karate" you know, someone else will always know more.
 
-   ![3](https://image.slidesharecdn.com/humanarchitecture-140126100824-phpapp01/95/social-human-architecture-for-beginners-40-638.jpg?cb=1390731219)
+   ![3](http://mymovieprice.com/wp-content/uploads/2018/04/10-675x410.jpg)
    
    - Don't rewrite code without consultation.
 
