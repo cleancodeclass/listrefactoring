@@ -68,13 +68,40 @@
 
    ![10](https://image.slidesharecdn.com/codereviews-introduction-121016060653-phpapp01/95/code-reviews-a-short-introduction-7-638.jpg?cb=1350368278)
 
-   
-   
-
-
-
 
 ### Code Smell 찾아 보기
+
+<pre><code>
+package collection;
+
+public class List1 {
+	private Object[] elements = new Object[10];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (!readOnly) {
+			int newSize = size + 1;
+			
+			if ( newSize > elements.length) {
+				Object[] newElements = new Object[elements.length + 10];
+				for (int i = 0; i < size; i++) {
+					newElements[i] = elements[i];
+				}
+
+				elements = newElements;
+			}
+
+			elements[size] = element;
+			size++;
+		}
+	}
+}
+</code></pre>
+
+
+
+
 * Magic Number
   - 특수한 값을 가지는 숫자를 의미한다.
   - 변경될 가능성이 있으면 여러 곳을 고쳐야 할 수 있다.
