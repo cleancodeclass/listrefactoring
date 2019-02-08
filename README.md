@@ -58,7 +58,7 @@
 
    - Fight for what you believe, but gracefully accept defeat.
    
-   ![8](https://seokigraph.tistory.com/29)   
+   ![8](https://www.sbs.com.au/yourlanguage/sites/sbs.com.au.yourlanguage/files/styles/full/public/joko.jpg?itok=thBSiR09&mtime=1516657659)   
 
    - Don't be "the guy in the room."
 
