@@ -27,47 +27,6 @@
  
 ※ Google의 경우  하나의 PR은 2명의 리뷰어를 지정하고 코드 수정 이후 4시간 이내에 리뷰를 받으며 24시간 이내에 Merge를 하고 PR당 7건의 Commit과 10개 미만의 파일, 평균 12.5개의 리뷰 Comment를 작성한다고 합니다.
 
- * 코드리뷰 Ground Rules (The Ten Commandments of Egoless Programming)
-   - Understand and accept that you will make mistakes.
-   
-   ![1](https://t1.daumcdn.net/cfile/tistory/2742BD3758161FC62A)
-
-   - You are not your code.
-
-   ![2](https://image.slidesharecdn.com/humanarchitecture-140126100824-phpapp01/95/social-human-architecture-for-beginners-40-638.jpg?cb=1390731219)
-   
-   - No matter how much "karate" you know, someone else will always know more.
-
-   ![3](http://mymovieprice.com/wp-content/uploads/2018/04/10-675x410.jpg)
-   
-   - Don't rewrite code without consultation.
-
-   ![4](https://www.yegor256.com/images/2015/02/kim-jong-un-doing-code-review.png)
-
-   - Treat people who know less than you with respect, deference, and patience.
-
-   ![5](http://static.hubzum.zumst.com/hubzum/2018/12/17/13/410efd687209410ca3405a12036c6e19.jpg)
-   
-   - The only constant in the world is change.
-
-   ![6](https://iconshots.com/wp-content/uploads/2018/05/Bane-Boon.jpg)
-   
-   - The only true authority stems from knowledge, not from position.
-   
-   ![7](http://142.103.173.3/wp-content/uploads/2016/10/KT-Challenge-2016.jpg)   
-
-   - Fight for what you believe, but gracefully accept defeat.
-   
-   ![8](https://www.sbs.com.au/yourlanguage/sites/sbs.com.au.yourlanguage/files/styles/full/public/joko.jpg?itok=thBSiR09&mtime=1516657659)   
-
-   - Don't be "the guy in the room."
-
-   ![9](https://media.proprofs.com/images/QM/user_images/1880055/1448867456.jpg)
-
-   - Critique code instead of people – be kind to the coder, not to the code.
-
-   ![10](https://image.slidesharecdn.com/codereviews-introduction-121016060653-phpapp01/95/code-reviews-a-short-introduction-7-638.jpg?cb=1350368278)
-
 
 ### Code Smell 찾아 보기
 
