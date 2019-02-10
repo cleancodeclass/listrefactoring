@@ -389,6 +389,8 @@ public class List1 {
 
 13. Releace 버전에 대하여 테스트를 수행하던 중 결함이 발견되어 조치합니다.
     위와 같은 방법으로 Feature 브랜치를 생성하고 Refactoring 브랜치에 Merge 합니다.(개발자1 수행)
+    
+    
 //변경전 코드
 package collection;
 
