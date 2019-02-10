@@ -391,6 +391,8 @@ public class List1 {
     위와 같은 방법으로 Feature 브랜치를 생성하고 Refactoring 브랜치에 Merge 합니다.(개발자1 수행)
     
     
+
+<pre><code>
 //변경전 코드
 package collection;
 
@@ -423,7 +425,9 @@ public class List1 {
 		return size + 1 > elements.length;
 	}
 }
-</code></pre>
+</code></pre>    
+
+
 <pre><code>
 //변경후 코드
 package collection;
@@ -465,6 +469,7 @@ public class List1 {
 
 14. 개발리더는 로컬에서 Chetty Pick 기능을 이용하여 변경된 Commit을 Release 버전에 반영합니다.
 
+<pre><code>
 D:\git\listrefactoring>git checkout 팀명_release_20190201
 Switched to a new branch '팀명_release_20190201'
 Branch '팀명_release_20190201' set up to track remote branch '팀명_release_20190201' from 'origin'.
@@ -476,6 +481,7 @@ D:\git\listrefactoring>git cherry-pick  59eac16
  1 file changed, 21 insertions(+), 12 deletions(-)
  
  D:\git\listrefactoring>git push
+</code></pre>    
  
 15. 개발리더는 Release에서 새로운 릴리즈 버전을 생성합니다.
 ![createrelease](https://user-images.githubusercontent.com/8435910/52030182-f557cd80-2559-11e9-8054-358f9ec02bfd.GIF)
