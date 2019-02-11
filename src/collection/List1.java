@@ -8,20 +8,22 @@ public class List1 {
 	private static final int STORE_SIZE_INCREMENT = 10;
 
 	public void add(Object element) {
-		if (!readOnly) {
-			int newSize = size + 1;
+		if (readOnly){
+			return;
+		}
+		
+		int newSize = size + 1;
 			
-			if ( newSize > elements.length) {
-				Object[] newElements = new Object[elements.length +  STORE_SIZE_INCREMENT ];
-				for (int i = 0; i < size; i++) {
-					newElements[i] = elements[i];
-				}
-
-				elements = newElements;
+		if ( newSize > elements.length) {
+			Object[] newElements = new Object[elements.length +  STORE_SIZE_INCREMENT ];
+			for (int i = 0; i < size; i++) {
+				newElements[i] = elements[i];
 			}
 
-			elements[size] = element;
-			size++;
+			elements = newElements;
 		}
+
+		elements[size] = element;
+		size++;
 	}
 }
