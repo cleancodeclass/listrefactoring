@@ -1,10 +1,3 @@
-### 실습환경
-* 짝 프로그래밍(Pair Programming)으로 진행
-  - 2명이 짝으로 구성(개발 미숙련자는 숙련자와 짝이 되도록 구성)
-  - 서로를 존중
-  - 적극적으로 대화하고 실습에 참여
-  - 코드는 돌아가면서 작성(Driver)하거나 리뷰 및 의견 제시 (Driver ↔ Observer or Navigator)
-  - 예를 들면, 테스트 코드 작성 , 실제 코드 작성 , 코드 개선 등의 순서로 진행하되 짧은 주기로 교대
 
 ### Centralized VC vs. Distributed VC
 ![gitfeature](https://user-images.githubusercontent.com/8435910/52028522-ad817800-2552-11e9-8877-c4b91ab2bfd7.GIF)
