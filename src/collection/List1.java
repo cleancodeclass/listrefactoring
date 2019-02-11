@@ -7,7 +7,8 @@ public class List1 {
 	private int size = 0;
 
 	public void add(Object element) {
-		if (!readOnly) {
+		if (readOnly)
+			return;
 			int newSize = size + 1;
 			
 			if ( newSize > elements.length) {
@@ -22,5 +23,5 @@ public class List1 {
 			elements[size] = element;
 			size++;
 		}
-	}
+	
 }
