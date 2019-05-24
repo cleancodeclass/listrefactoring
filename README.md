@@ -461,7 +461,8 @@ public class List1 {
 </code></pre>    
 
 14. 개발리더는 로컬에서 Chetty Pick 기능을 이용하여 변경된 Commit을 Release 버전에 반영합니다.
-
+    브랜치 id는 커맨드에서 다음명령어를 실행하여 확인
+    git log --pretty=oneline
 <pre><code>
 D:\git\listrefactoring>git checkout 팀명_release_20190201
 Switched to a new branch '팀명_release_20190201'
