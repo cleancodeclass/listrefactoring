@@ -1,8 +1,8 @@
 package collection;
 
 public class List1 {
-	private static final int INCRESE_10 = 10;
-	private static final int INIT_10 = 10;
+	private static final int INCRESE_10 = 10; //magic number
+	private static final int INIT_10 = 10; //magic number
 	private Object[] elements = new Object[INIT_10];
 	private boolean readOnly;
 	private int size = 0;
