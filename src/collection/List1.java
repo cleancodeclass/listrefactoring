@@ -6,20 +6,22 @@ public class List1 {
 	private int size = 0;
 
 	public void add(Object element) {
-		if (!readOnly) {
-			int newSize = size + 1;
-			
-			if ( newSize > elements.length) {
-				Object[] newElements = new Object[elements.length + 10];
-				for (int i = 0; i < size; i++) {
-					newElements[i] = elements[i];
-				}
+		if (readOnly) {
+			return;
+		}
+		
+		int newSize = size + 1;
 
-				elements = newElements;
+		if ( newSize > elements.length) {
+			Object[] newElements = new Object[elements.length + 10];
+			for (int i = 0; i < size; i++) {
+				newElements[i] = elements[i];
 			}
 
-			elements[size] = element;
-			size++;
+			elements = newElements;
 		}
+
+		elements[size] = element;
+		size++;
 	}
 }
