@@ -3,7 +3,7 @@ package collection;
 public class List1 {
 	private Object[] elements = new Object[10];
 	private boolean readOnly;
-	private int size = 0;
+	private int size = 0; //주석을 달겠습니다
 
 	public void add(Object element) {
 		if (!readOnly) {
