@@ -1,5 +1,6 @@
 package collection;
 
+
 public class List1 {
 	private Object[] elements = new Object[10];
 	private boolean readOnly;
