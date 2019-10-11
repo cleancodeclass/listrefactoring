@@ -66,7 +66,11 @@ pull request은 완료된 작업을 나타내지 않아도됩니다. 일반적�
 ### 참고
 - [About pull request reviews](http://help.github.com/en/articles/about-pull-request-reviews)
 
-### Git 활용 Tips](git-tip.md)
+### [Git 활용 Tips](git-tip.md)
+
+- [Code Review on GitHub](https://www.youtube.com/watch?v=HW0RPaJqm4g)
+- [About pull request reviews](https://help.github.com/en/articles/about-pull-request-reviews)
+- [Write better code](https://github.com/features/code-review/)
 
 ### Code Smell 찾아 보기
 
