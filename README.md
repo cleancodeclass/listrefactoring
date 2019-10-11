@@ -33,8 +33,8 @@
   - 이슈를 열었지만 나중에 대답을 알아 낸 경우, 사람들에게 알리고 이슈를 해결할 수 있도록 이슈에 대한 의견을 말하십시오.
 
 * 참고
-- [About READMEs](https://help.github.com/en/articles/about-readmes)
-- [README Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- [Creating a issue template](http://help.github.com/en/articles/manually-creating-a-single-issue-template-for-your-repository)  
+- [Collaborating with issues and pull requests](http://help.github.com/en/categories/collaborating-with-issues-and-pull-requests)
 
 ### Code Smell 찾아 보기
 
