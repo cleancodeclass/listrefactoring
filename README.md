@@ -63,8 +63,10 @@ pull request은 완료된 작업을 나타내지 않아도됩니다. 일반적�
 - 컨트리뷰션이 받아들여지지 않습니다.
 - 컨트리뷰션이 받아들여 졌습니다.
 
-#### 참고
+### 참고
 - [About pull request reviews](http://help.github.com/en/articles/about-pull-request-reviews)
+
+### Git 활용 Tips](git-tip.md)
 
 ### Code Smell 찾아 보기
 
