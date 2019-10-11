@@ -36,6 +36,36 @@
 - [Creating a issue template](http://help.github.com/en/articles/manually-creating-a-single-issue-template-for-your-repository)  
 - [Collaborating with issues and pull requests](http://help.github.com/en/categories/collaborating-with-issues-and-pull-requests)
 
+### Pull Request 활용하기
+* pull request 열기
+- 사소한 수정 사항 제출 (예 : 오타, 깨진 링크 또는 분명한 오류)
+- 이미 이슈를 열었거나 이미 논의한 내용을 기여로 시작하기  
+
+pull request은 완료된 작업을 나타내지 않아도됩니다. 일반적으로 초기에 pull request을 열면 다른 사람이 진행 상황을 보거나 피드백을 줄 수 있습니다.  
+제목 줄에 “WIP”(진행중인 작업)이라고 표시하십시오. 나중에 커밋을 더 추가 할 수 있습니다.
+
+* pull request 방법
+1. 저장소를 포크하고 로컬에 클론합니다. 
+1. 수정을 위한 브랜치 생성하기.
+1. 모든 관련있는 이슈 혹은 PR에서 지원중인 문서 참조하기 (ex. “close #37”)
+1. 전후의 스크린 샷 포함합니다.
+1. 변경점을 테스트합니다! 
+1. 당신의 능력을 최대한 발휘하여 프로젝트 스타일에 기여하십시오. 
+
+* 참고
+- [Creating a pull request template](http://help.github.com/en/articles/creating-a-pull-request-template-for-your-repository)
+- [Fork a repo](http://help.github.com/en/articles/fork-a-repo)  
+
+### 결과기다리기
+컨트리뷰션 후 다음 중 하나의 결과를 받을 수 있습니다.
+- 컨트리뷰션에 대한 응답을 받지 못합니다.
+- 누군가가 컨트리뷰션에 대한 변경을 요청합니다.
+- 컨트리뷰션이 받아들여지지 않습니다.
+- 컨트리뷰션이 받아들여 졌습니다.
+
+#### 참고
+- [About pull request reviews](http://help.github.com/en/articles/about-pull-request-reviews)
+
 ### Code Smell 찾아 보기
 
 <pre><code>
