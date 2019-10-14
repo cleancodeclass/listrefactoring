@@ -3,68 +3,68 @@
 ![gitfeature](https://user-images.githubusercontent.com/8435910/52028522-ad817800-2552-11e9-8877-c4b91ab2bfd7.GIF)
 
 
-### Git ë¸Œëžœì¹˜
+### Git ºê·£Ä¡
 ![gitbranch](https://user-images.githubusercontent.com/8435910/52028327-f38a0c00-2551-11e9-9458-88961fb5c024.png)
 
-### ìœ ìš©í•œ íŒ€
-* Commit ìž‘ì„±
-  - Commitì€ ë‹¨ì¼ ê¸°ëŠ¥ ë‹¨ìœ„ë¡œ êµ¬ì„±
-  - ì½”ë“œë¦¬ë·°ë¥¼ ê³ ë ¤í•˜ì—¬ 200LOC ì´í•˜ë¡œ ìž‘ì„±(10ê°œ ë¯¸ë§Œì˜ íŒŒì¼)
-  - ìž‘ì„±ë°©ë²•
-   ì œëª© : ìˆ˜ì •ì‚¬í•­ì„ í•œ ì¤„ë¡œ ìš”ì•½
-   ë‚´ìš© : í•œ í–‰ì„ ë„ê³  ìˆ˜ì • ë‚´ìš©ì— ëŒ€í•œ ì´í•´ê°€ ì‰½ë„ë¡ ìž‘ì„±
-* ì½”ë“œë¦¬ë·°
-  - í•´ê²°ë°©ì•ˆì— ëŒ€í•œ êµ¬ì²´ì ì¸ ê°€ì´ë“œ
-  - ì•„ë‚Œì—†ëŠ” ì¹­ì°¬
-  - ìˆ˜ì •ëœ ì½”ë“œì— ëŒ€í•˜ì—¬ë§Œ ë¦¬ë·° ì§‘ì¤‘
+### À¯¿ëÇÑ ÆÀ
+* Commit ÀÛ¼º
+  - CommitÀº ´ÜÀÏ ±â´É ´ÜÀ§·Î ±¸¼º
+  - ÄÚµå¸®ºä¸¦ °í·ÁÇÏ¿© 200LOC ÀÌÇÏ·Î ÀÛ¼º(10°³ ¹Ì¸¸ÀÇ ÆÄÀÏ)
+  - ÀÛ¼º¹æ¹ý
+   Á¦¸ñ : ¼öÁ¤»çÇ×À» ÇÑ ÁÙ·Î ¿ä¾à
+   ³»¿ë : ÇÑ ÇàÀ» ¶ç°í ¼öÁ¤ ³»¿ë¿¡ ´ëÇÑ ÀÌÇØ°¡ ½±µµ·Ï ÀÛ¼º
+* ÄÚµå¸®ºä
+  - ÇØ°á¹æ¾È¿¡ ´ëÇÑ ±¸Ã¼ÀûÀÎ °¡ÀÌµå
+  - ¾Æ³¦¾ø´Â ÄªÂù
+  - ¼öÁ¤µÈ ÄÚµå¿¡ ´ëÇÏ¿©¸¸ ¸®ºä ÁýÁß
  
-â€» Googleì˜ ê²½ìš°  í•˜ë‚˜ì˜ PRì€ 2ëª…ì˜ ë¦¬ë·°ì–´ë¥¼ ì§€ì •í•˜ê³  ì½”ë“œ ìˆ˜ì • ì´í›„ 4ì‹œê°„ ì´ë‚´ì— ë¦¬ë·°ë¥¼ ë°›ìœ¼ë©° 24ì‹œê°„ ì´ë‚´ì— Mergeë¥¼ í•˜ê³  PRë‹¹ 7ê±´ì˜ Commitê³¼ 10ê°œ ë¯¸ë§Œì˜ íŒŒì¼, í‰ê·  12.5ê°œì˜ ë¦¬ë·° Commentë¥¼ ìž‘ì„±í•œë‹¤ê³  í•©ë‹ˆë‹¤.
+¡Ø GoogleÀÇ °æ¿ì  ÇÏ³ªÀÇ PRÀº 2¸íÀÇ ¸®ºä¾î¸¦ ÁöÁ¤ÇÏ°í ÄÚµå ¼öÁ¤ ÀÌÈÄ 4½Ã°£ ÀÌ³»¿¡ ¸®ºä¸¦ ¹ÞÀ¸¸ç 24½Ã°£ ÀÌ³»¿¡ Merge¸¦ ÇÏ°í PR´ç 7°ÇÀÇ Commit°ú 10°³ ¹Ì¸¸ÀÇ ÆÄÀÏ, Æò±Õ 12.5°³ÀÇ ¸®ºä Comment¸¦ ÀÛ¼ºÇÑ´Ù°í ÇÕ´Ï´Ù.
 
-### í”„ë¡œì íŠ¸ì— ì´ìŠˆ ë¦¬í¬íŒ…í•˜ê¸°
-* ì¼ë°˜ì ìœ¼ë¡œ ë‹¤ìŒê³¼ ê°™ì€ ìƒí™©ì—ì„œ ì´ìŠˆë¥¼ ìž‘ì„±í•©ë‹ˆë‹¤:
-  - ìŠ¤ìŠ¤ë¡œ í•´ê²°í•  ìˆ˜ ì—†ëŠ” ì˜¤ë¥˜
-  - ë†’ì€ ìˆ˜ì¤€ì˜ ì£¼ì œ ë˜ëŠ” ì•„ì´ë””ì–´ (ì˜ˆì‹œ. ì»¤ë®¤ë‹ˆí‹°, ë¹„ì „, ì •ì±…) í† ë¡ 
-  - ìƒˆë¡œìš´ ê¸°ëŠ¥ì´ë‚˜ ë‹¤ë¥¸ í”„ë¡œì íŠ¸ ì•„ì´ë””ì–´ ì œì•ˆ
+### ÇÁ·ÎÁ§Æ®¿¡ ÀÌ½´ ¸®Æ÷ÆÃÇÏ±â
+* ÀÏ¹ÝÀûÀ¸·Î ´ÙÀ½°ú °°Àº »óÈ²¿¡¼­ ÀÌ½´¸¦ ÀÛ¼ºÇÕ´Ï´Ù:
+  - ½º½º·Î ÇØ°áÇÒ ¼ö ¾ø´Â ¿À·ù
+  - ³ôÀº ¼öÁØÀÇ ÁÖÁ¦ ¶Ç´Â ¾ÆÀÌµð¾î (¿¹½Ã. Ä¿¹Â´ÏÆ¼, ºñÀü, Á¤Ã¥) Åä·Ð
+  - »õ·Î¿î ±â´ÉÀÌ³ª ´Ù¸¥ ÇÁ·ÎÁ§Æ® ¾ÆÀÌµð¾î Á¦¾È
 
-* í•´ê²°í•˜ë ¤ëŠ” ì´ìŠˆê°€ ê³µê°œì ìœ¼ë¡œ ë³´ì´ë©´,
-  - ì¤‘ë³µìœ¼ë¡œ ìž‘ì—…í•  ê°€ëŠ¥ì„±ì´ ì¤„ì´ê¸° ìœ„í•´ ëŒ€í•´ ìƒˆë¡œ ì´ìŠˆë¥¼ ìƒì„±í•˜ì§€ ë§ê³  í•´ë‹¹ë˜ëŠ” ì´ìŠˆì—ì„œ ì˜ê²¬ì„ ë§í•¨.
-  - ì´ìŠˆê°€ ì¡°ê¸ˆ ì „ì— ì—´ë ¸ë‹¤ë©´, ë‹¤ë¥¸ ê³³ì—ì„œ í•´ê²°ë˜ì—ˆê±°ë‚˜, ì´ë¯¸ í•´ê²°ë˜ì—ˆì„ ìˆ˜ ìžˆê¸° ë•Œë¬¸ì— í•´ë‹¹ì´ìŠˆì— ëŒ€í•´ ìž‘ì—…ì„ ì‹œìž‘í•˜ê¸° ì „ì— í™•ì¸ì„ ìš”ì²­.
-  - ì´ìŠˆë¥¼ ì—´ì—ˆì§€ë§Œ ë‚˜ì¤‘ì— ëŒ€ë‹µì„ ì•Œì•„ ë‚¸ ê²½ìš°, ì‚¬ëžŒë“¤ì—ê²Œ ì•Œë¦¬ê³  ì´ìŠˆë¥¼ í•´ê²°í•  ìˆ˜ ìžˆë„ë¡ ì´ìŠˆì— ëŒ€í•œ ì˜ê²¬ì„ ë§í•˜ì‹­ì‹œì˜¤.
+* ÇØ°áÇÏ·Á´Â ÀÌ½´°¡ °ø°³ÀûÀ¸·Î º¸ÀÌ¸é,
+  - Áßº¹À¸·Î ÀÛ¾÷ÇÒ °¡´É¼ºÀÌ ÁÙÀÌ±â À§ÇØ ´ëÇØ »õ·Î ÀÌ½´¸¦ »ý¼ºÇÏÁö ¸»°í ÇØ´çµÇ´Â ÀÌ½´¿¡¼­ ÀÇ°ßÀ» ¸»ÇÔ.
+  - ÀÌ½´°¡ Á¶±Ý Àü¿¡ ¿­·È´Ù¸é, ´Ù¸¥ °÷¿¡¼­ ÇØ°áµÇ¾ú°Å³ª, ÀÌ¹Ì ÇØ°áµÇ¾úÀ» ¼ö ÀÖ±â ¶§¹®¿¡ ÇØ´çÀÌ½´¿¡ ´ëÇØ ÀÛ¾÷À» ½ÃÀÛÇÏ±â Àü¿¡ È®ÀÎÀ» ¿äÃ».
+  - ÀÌ½´¸¦ ¿­¾úÁö¸¸ ³ªÁß¿¡ ´ë´äÀ» ¾Ë¾Æ ³½ °æ¿ì, »ç¶÷µé¿¡°Ô ¾Ë¸®°í ÀÌ½´¸¦ ÇØ°áÇÒ ¼ö ÀÖµµ·Ï ÀÌ½´¿¡ ´ëÇÑ ÀÇ°ßÀ» ¸»ÇÏ½Ê½Ã¿À.
 
-* ì°¸ê³ 
+* Âü°í
 - [Creating a issue template](http://help.github.com/en/articles/manually-creating-a-single-issue-template-for-your-repository)  
 - [Collaborating with issues and pull requests](http://help.github.com/en/categories/collaborating-with-issues-and-pull-requests)
 
-### Pull Request í™œìš©í•˜ê¸°
-* pull request ì—´ê¸°
-- ì‚¬ì†Œí•œ ìˆ˜ì • ì‚¬í•­ ì œì¶œ (ì˜ˆ : ì˜¤íƒ€, ê¹¨ì§„ ë§í¬ ë˜ëŠ” ë¶„ëª…í•œ ì˜¤ë¥˜)
-- ì´ë¯¸ ì´ìŠˆë¥¼ ì—´ì—ˆê±°ë‚˜ ì´ë¯¸ ë…¼ì˜í•œ ë‚´ìš©ì„ ê¸°ì—¬ë¡œ ì‹œìž‘í•˜ê¸°  
+### Pull Request È°¿ëÇÏ±â
+* pull request ¿­±â
+- »ç¼ÒÇÑ ¼öÁ¤ »çÇ× Á¦Ãâ (¿¹ : ¿ÀÅ¸, ±úÁø ¸µÅ© ¶Ç´Â ºÐ¸íÇÑ ¿À·ù)
+- ÀÌ¹Ì ÀÌ½´¸¦ ¿­¾ú°Å³ª ÀÌ¹Ì ³íÀÇÇÑ ³»¿ëÀ» ±â¿©·Î ½ÃÀÛÇÏ±â  
 
-pull requestì€ ì™„ë£Œëœ ìž‘ì—…ì„ ë‚˜íƒ€ë‚´ì§€ ì•Šì•„ë„ ë©ë‹ˆë‹¤. ì¼ë°˜ì ìœ¼ë¡œ ì´ˆê¸°ì— pull requestì„ ì—´ë©´ ë‹¤ë¥¸ ì‚¬ëžŒì´ ì§„í–‰ ìƒí™©ì„ ë³´ê±°ë‚˜ í”¼ë“œë°±ì„ ì¤„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.  
-ì œëª© ì¤„ì— â€œWIPâ€(ì§„í–‰ì¤‘ì¸ ìž‘ì—…)ì´ë¼ê³  í‘œì‹œí•˜ì‹­ì‹œì˜¤. ë‚˜ì¤‘ì— ì»¤ë°‹ì„ ë” ì¶”ê°€ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+pull requestÀº ¿Ï·áµÈ ÀÛ¾÷À» ³ªÅ¸³»Áö ¾Ê¾Æµµ µË´Ï´Ù. ÀÏ¹ÝÀûÀ¸·Î ÃÊ±â¿¡ pull requestÀ» ¿­¸é ´Ù¸¥ »ç¶÷ÀÌ ÁøÇà »óÈ²À» º¸°Å³ª ÇÇµå¹éÀ» ÁÙ ¼ö ÀÖ½À´Ï´Ù.  
+Á¦¸ñ ÁÙ¿¡ ¡°WIP¡±(ÁøÇàÁßÀÎ ÀÛ¾÷)ÀÌ¶ó°í Ç¥½ÃÇÏ½Ê½Ã¿À. ³ªÁß¿¡ Ä¿¹ÔÀ» ´õ Ãß°¡ ÇÒ ¼ö ÀÖ½À´Ï´Ù.
 
-* pull request ë°©ë²•
-1. ì €ìž¥ì†Œë¥¼ í¬í¬í•˜ê³  ë¡œì»¬ì— í´ë¡ í•©ë‹ˆë‹¤. 
-1. ìˆ˜ì •ì„ ìœ„í•œ ë¸Œëžœì¹˜ ìƒì„±í•˜ê¸°.
-1. ëª¨ë“  ê´€ë ¨ìžˆëŠ” ì´ìŠˆ í˜¹ì€ PRì—ì„œ ì§€ì›ì¤‘ì¸ ë¬¸ì„œ ì°¸ì¡°í•˜ê¸° (ex. â€œclose #37â€)
-1. ì „í›„ì˜ ìŠ¤í¬ë¦° ìƒ· í¬í•¨í•©ë‹ˆë‹¤.
-1. ë³€ê²½ì ì„ í…ŒìŠ¤íŠ¸í•©ë‹ˆë‹¤! 
-1. ë‹¹ì‹ ì˜ ëŠ¥ë ¥ì„ ìµœëŒ€í•œ ë°œíœ˜í•˜ì—¬ í”„ë¡œì íŠ¸ ìŠ¤íƒ€ì¼ì— ê¸°ì—¬í•˜ì‹­ì‹œì˜¤. 
+* pull request ¹æ¹ý
+1. ÀúÀå¼Ò¸¦ Æ÷Å©ÇÏ°í ·ÎÄÃ¿¡ Å¬·ÐÇÕ´Ï´Ù. 
+1. ¼öÁ¤À» À§ÇÑ ºê·£Ä¡ »ý¼ºÇÏ±â.
+1. ¸ðµç °ü·ÃÀÖ´Â ÀÌ½´ È¤Àº PR¿¡¼­ Áö¿øÁßÀÎ ¹®¼­ ÂüÁ¶ÇÏ±â (ex. ¡°close #37¡±)
+1. ÀüÈÄÀÇ ½ºÅ©¸° ¼¦ Æ÷ÇÔÇÕ´Ï´Ù.
+1. º¯°æÁ¡À» Å×½ºÆ®ÇÕ´Ï´Ù! 
+1. ´ç½ÅÀÇ ´É·ÂÀ» ÃÖ´ëÇÑ ¹ßÈÖÇÏ¿© ÇÁ·ÎÁ§Æ® ½ºÅ¸ÀÏ¿¡ ±â¿©ÇÏ½Ê½Ã¿À. 
 
-* ì°¸ê³ 
+* Âü°í
 - [Creating a pull request template](http://help.github.com/en/articles/creating-a-pull-request-template-for-your-repository)
 - [Fork a repo](http://help.github.com/en/articles/fork-a-repo)  
 
-### ì°¸ê³ 
+### Âü°í
 - [About pull request reviews](http://help.github.com/en/articles/about-pull-request-reviews)
 
-### [Git í™œìš© Tips](git-tip.md)
+### [Git È°¿ë Tips](git-tip.md)
 
 - [Code Review on GitHub](https://www.youtube.com/watch?v=HW0RPaJqm4g)
 - [About pull request reviews](https://help.github.com/en/articles/about-pull-request-reviews)
 - [Write better code](https://github.com/features/code-review/)
 
-### Code Smell ì°¾ì•„ ë³´ê¸°
+### Code Smell Ã£¾Æ º¸±â
 
 <pre><code>
 package collection;
@@ -98,41 +98,41 @@ public class List1 {
 
 
 * Magic Number
-  - íŠ¹ì • ìˆ«ìžê°€ ìƒìˆ˜í˜•íƒœë¡œ ì •ì˜ë˜ì–´ ìžˆëŠ” ì½”ë“œë¥¼ ì˜ë¯¸í•œë‹¤.
-  - ë³€ê²½ë  ê°€ëŠ¥ì„±ì´ ìžˆìœ¼ë©´ ì—¬ëŸ¬ ê³³ì„ ê³ ì³ì•¼ í•  ìˆ˜ ìžˆë‹¤.
-  - ì½”ë“œì—ì„œ ì–´ë–»ê²Œ ì²˜ë¦¬ë˜ê³  ìžˆëŠ”ì§€ ì•Œì•„ë‚´ê¸° íž˜ë“¤ë‹¤.
-  - ìƒìˆ˜ì„ ì–¸ ê¸°ëŠ¥ì„ ì´ìš©í•˜ì—¬ ê°€ë…ì„±ì„ ë†’ì´ê³  ìœ ì§€ë³´ìˆ˜ì„±ì„ í–¥ìƒì‹œí‚¨ë‹¤.
+  - Æ¯Á¤ ¼ýÀÚ°¡ »ó¼öÇüÅÂ·Î Á¤ÀÇµÇ¾î ÀÖ´Â ÄÚµå¸¦ ÀÇ¹ÌÇÑ´Ù.
+  - º¯°æµÉ °¡´É¼ºÀÌ ÀÖÀ¸¸é ¿©·¯ °÷À» °íÃÄ¾ß ÇÒ ¼ö ÀÖ´Ù.
+  - ÄÚµå¿¡¼­ ¾î¶»°Ô Ã³¸®µÇ°í ÀÖ´ÂÁö ¾Ë¾Æ³»±â Èûµé´Ù.
+  - »ó¼ö¼±¾ð ±â´ÉÀ» ÀÌ¿ëÇÏ¿© °¡µ¶¼ºÀ» ³ôÀÌ°í À¯Áöº¸¼ö¼ºÀ» Çâ»ó½ÃÅ²´Ù.
 
-* ë¶€ì •í˜• ì½”ë“œ ë¸”ëŸ­
-  - ë¶€ì •í˜•ì€ ê¸ì •í˜•ë³´ë‹¤ ì´í•´í•˜ê¸° íž˜ë“¤ë‹¤.
+* ºÎÁ¤Çü ÄÚµå ºí·°
+  - ºÎÁ¤ÇüÀº ±àÁ¤Çüº¸´Ù ÀÌÇØÇÏ±â Èûµé´Ù.
 
-* ë³µìž¡í•œ if ì¡°ê±´ë¬¸
-  - if ì¡°ê±´ë¬¸ì•ˆì˜ ë‚´ìš©ì´ ë³µìž¡í•˜ë‹¤ë©´ ê°€ë…ì„± ìžˆëŠ” í•¨ìˆ˜ë¡œ ì¶”ì¶œí•˜ë„ë¡ í•œë‹¤.
-  - ì½”ë“œì˜ ìš©ë„ê°€ ëª…í™•í•˜ê²Œ ë“œëŸ¬ë‚˜ê³  ë¡œì§ì˜ íë¦„ì„ ì´í•´í•˜ê¸° ì‰½ë‹¤.
+* º¹ÀâÇÑ if Á¶°Ç¹®
+  - if Á¶°Ç¹®¾ÈÀÇ ³»¿ëÀÌ º¹ÀâÇÏ´Ù¸é °¡µ¶¼º ÀÖ´Â ÇÔ¼ö·Î ÃßÃâÇÏµµ·Ï ÇÑ´Ù.
+  - ÄÚµåÀÇ ¿ëµµ°¡ ¸íÈ®ÇÏ°Ô µå·¯³ª°í ·ÎÁ÷ÀÇ Èå¸§À» ÀÌÇØÇÏ±â ½±´Ù.
 
-* ë³µìž¡í•œ if ì ˆ
-  - if ì ˆì•ˆì˜ ë‚´ìš©ì´ ë³µìž¡í•˜ë‹¤ë©´ ê°€ë…ì„± ìžˆëŠ” í•¨ìˆ˜ë¡œ ì¶”ì¶œí•˜ë„ë¡ í•œë‹¤.
-  - ì½”ë“œì˜ ìš©ë„ê°€ ëª…í™•í•˜ê²Œ ë“œëŸ¬ë‚˜ê³  ë¡œì§ì˜ íë¦„ì„ ì´í•´í•˜ê¸° ì‰½ë‹¤.
+* º¹ÀâÇÑ if Àý
+  - if Àý¾ÈÀÇ ³»¿ëÀÌ º¹ÀâÇÏ´Ù¸é °¡µ¶¼º ÀÖ´Â ÇÔ¼ö·Î ÃßÃâÇÏµµ·Ï ÇÑ´Ù.
+  - ÄÚµåÀÇ ¿ëµµ°¡ ¸íÈ®ÇÏ°Ô µå·¯³ª°í ·ÎÁ÷ÀÇ Èå¸§À» ÀÌÇØÇÏ±â ½±´Ù.
 
-* ë³µìž¡í•œ if ì ˆ ë°–ì˜ ë¡œì§
-  - if ì ˆ ë°–ì˜ ë¡œì§ì˜ ë‚´ìš©ì´ ë³µìž¡í•˜ë‹¤ë©´ ê°€ë…ì„± ìžˆëŠ” í•¨ìˆ˜ë¡œ ì¶”ì¶œí•˜ë„ë¡ í•œë‹¤.
-  - ì½”ë“œì˜ ìš©ë„ê°€ ëª…í™•í•˜ê²Œ ë“œëŸ¬ë‚˜ê³  ë¡œì§ì˜ íë¦„ì„ ì´í•´í•˜ê¸° ì‰½ë‹¤.
+* º¹ÀâÇÑ if Àý ¹ÛÀÇ ·ÎÁ÷
+  - if Àý ¹ÛÀÇ ·ÎÁ÷ÀÇ ³»¿ëÀÌ º¹ÀâÇÏ´Ù¸é °¡µ¶¼º ÀÖ´Â ÇÔ¼ö·Î ÃßÃâÇÏµµ·Ï ÇÑ´Ù.
+  - ÄÚµåÀÇ ¿ëµµ°¡ ¸íÈ®ÇÏ°Ô µå·¯³ª°í ·ÎÁ÷ÀÇ Èå¸§À» ÀÌÇØÇÏ±â ½±´Ù.
 
-### íŒ€ëª… ì •í•˜ê³  ì—­í• ìž ë‚˜ëˆ„ê¸°
-* ê°œë°œë¦¬ë”
-  - ë¦¬íŒ©í† ë§ ë¸Œëžœì¹˜ë¥¼ ìƒì„±í•œë‹¤.
-  - Pull Requestì— ëŒ€í•œ Mergeë¥¼ ìˆ˜í–‰í•œë‹¤.
-  - ë¦´ë¦¬ì¦ˆ ë¸Œëžœì¹˜ë¥¼ ìƒì„±í•œë‹¤.
-  - ë¦´ë¦¬ì¦ˆ ë²„ì „ì—ì„œ Cherry-pickì„ ìˆ˜í–‰í•œë‹¤.
-  - ë°°í¬ë¥¼ ìœ„í•œ ë¦´ë¦¬ì¦ˆë¥¼ ìˆ˜í–‰í•œë‹¤.
+### ÆÀ¸í Á¤ÇÏ°í ¿ªÇÒÀÚ ³ª´©±â
+* °³¹ß¸®´õ
+  - ¸®ÆÑÅä¸µ ºê·£Ä¡¸¦ »ý¼ºÇÑ´Ù.
+  - Pull Request¿¡ ´ëÇÑ Merge¸¦ ¼öÇàÇÑ´Ù.
+  - ¸±¸®Áî ºê·£Ä¡¸¦ »ý¼ºÇÑ´Ù.
+  - ¸±¸®Áî ¹öÀü¿¡¼­ Cherry-pickÀ» ¼öÇàÇÑ´Ù.
+  - ¹èÆ÷¸¦ À§ÇÑ ¸±¸®Áî¸¦ ¼öÇàÇÑ´Ù.
 
-* ê°œë°œìž
-  - Forkë¥¼ ìˆ˜í–‰í•œë‹¤.
-  - Feature ë¸Œëžœì¹˜ë¥¼ ìƒì„±í•œë‹¤.
-  - Pull Requestë¥¼ ìƒì„±í•œë‹¤.(ë‹¤ë¥¸ ê°œë°œìžë¥¼ Reviewerë¡œ ì§€ì •í•˜ê³  ê°œë°œë¦¬ë”ë¥¼ Assignerë¡œ í• ë‹¹í•œë‹¤.)
+* °³¹ßÀÚ
+  - Fork¸¦ ¼öÇàÇÑ´Ù.
+  - Feature ºê·£Ä¡¸¦ »ý¼ºÇÑ´Ù.
+  - Pull Request¸¦ »ý¼ºÇÑ´Ù.(´Ù¸¥ °³¹ßÀÚ¸¦ Reviewer·Î ÁöÁ¤ÇÏ°í °³¹ß¸®´õ¸¦ Assigner·Î ÇÒ´çÇÑ´Ù.)
 
-* ë¦¬ë·°ì–´
-  - ê°œë°œìžê°€ ìƒì„±í•œ Pull Requestì— ëŒ€í•˜ì—¬ ì½”ë“œë¦¬ë·°ë¥¼ ìˆ˜í–‰í•œë‹¤.
+* ¸®ºä¾î
+  - °³¹ßÀÚ°¡ »ý¼ºÇÑ Pull Request¿¡ ´ëÇÏ¿© ÄÚµå¸®ºä¸¦ ¼öÇàÇÑ´Ù.
   
   
   
@@ -140,18 +140,18 @@ public class List1 {
   
   
 
-### [ì°¸ê³ ]ë¦¬íŒ©í† ë§ ìˆ˜í–‰í•˜ê¸°
-1. ê°œë°œë¦¬ë”ëŠ” ë¦¬íŒ©í† ë§ ë¸Œëžœì¹˜ë¥¼ ìƒì„±í•©ë‹ˆë‹¤. ë¸Œëžœì¹˜ëª…ì€ íŒ€ëª…_refactoring_yyyymmddë¡œ ìž‘ì„±í•˜ê³  master ë¸Œëžœì¹˜ë¡œë¶€í„° ìƒì„±í•©ë‹ˆë‹¤.
-![ë¦¬íŒ©í† ë§ ë¸Œëžœì¹˜ ìƒì„±í•˜ê¸°](https://user-images.githubusercontent.com/8435910/51890613-d8978a80-23df-11e9-9b99-3cea2d79aa82.GIF)
-2. ê°œë°œìž1ì€ feature ë¸Œëžœì¹˜ë¥¼ ìƒì„±í•©ë‹ˆë‹¤.
-![feature ë¸Œëžœì¹˜ ìƒì„±í•˜ê¸°](https://user-images.githubusercontent.com/8435910/51891076-5b6d1500-23e1-11e9-90c0-16676f87b897.GIF)
-3. ê°œë°œìž1ì€ ë¡œì»¬ ë¦¬íŒŒì§€í† ë¦¬ë¡œ ì›ê²© Gitì„ cloneí•©ë‹ˆë‹¤.
-![Git Cloneí•˜ê¸°](https://user-images.githubusercontent.com/8435910/51891688-2eb9fd00-23e3-11e9-88e2-22213f2a4156.GIF)
-![Git Cloneí•˜ê¸°](https://user-images.githubusercontent.com/8435910/51891694-31b4ed80-23e3-11e9-9c3e-bc8b595ae915.GIF)
-![Git Cloneí•˜ê¸°](https://user-images.githubusercontent.com/8435910/51891697-34174780-23e3-11e9-8522-a3246a8e59b2.GIF)
-4. ê°œë°œìž1ì€ ì½”ë“œë¥¼ ìˆ˜ì •í•©ë‹ˆë‹¤.
+### [Âü°í]¸®ÆÑÅä¸µ ¼öÇàÇÏ±â
+1. °³¹ß¸®´õ´Â ¸®ÆÑÅä¸µ ºê·£Ä¡¸¦ »ý¼ºÇÕ´Ï´Ù. ºê·£Ä¡¸íÀº ÆÀ¸í_refactoring_yyyymmdd·Î ÀÛ¼ºÇÏ°í master ºê·£Ä¡·ÎºÎÅÍ »ý¼ºÇÕ´Ï´Ù.
+![¸®ÆÑÅä¸µ ºê·£Ä¡ »ý¼ºÇÏ±â](https://user-images.githubusercontent.com/8435910/51890613-d8978a80-23df-11e9-9b99-3cea2d79aa82.GIF)
+2. °³¹ßÀÚ1Àº feature ºê·£Ä¡¸¦ »ý¼ºÇÕ´Ï´Ù.
+![feature ºê·£Ä¡ »ý¼ºÇÏ±â](https://user-images.githubusercontent.com/8435910/51891076-5b6d1500-23e1-11e9-90c0-16676f87b897.GIF)
+3. °³¹ßÀÚ1Àº ·ÎÄÃ ¸®ÆÄÁöÅä¸®·Î ¿ø°Ý GitÀ» cloneÇÕ´Ï´Ù.
+![Git CloneÇÏ±â](https://user-images.githubusercontent.com/8435910/51891688-2eb9fd00-23e3-11e9-88e2-22213f2a4156.GIF)
+![Git CloneÇÏ±â](https://user-images.githubusercontent.com/8435910/51891694-31b4ed80-23e3-11e9-9c3e-bc8b595ae915.GIF)
+![Git CloneÇÏ±â](https://user-images.githubusercontent.com/8435910/51891697-34174780-23e3-11e9-8522-a3246a8e59b2.GIF)
+4. °³¹ßÀÚ1Àº ÄÚµå¸¦ ¼öÁ¤ÇÕ´Ï´Ù.
 <pre><code>
-//ë³€ê²½ì „ ì½”ë“œ
+//º¯°æÀü ÄÚµå
 package collection;
 
 public class List1 {
@@ -179,7 +179,7 @@ public class List1 {
 }
 </code></pre>
 <pre><code>
-//ë³€ê²½í›„ ì½”ë“œ
+//º¯°æÈÄ ÄÚµå
 package collection;
 
 public class List1 {
@@ -208,27 +208,27 @@ public class List1 {
 }
 </code></pre>
 
-5. ê°œë°œìž1ì€ ìˆ˜ì •ëœ ì½”ë“œë¥¼ PUSHí•©ë‹ˆë‹¤.
-ì´ë•Œ Commit Messageë¥¼ ìž˜ ìž‘ì„±í•˜ë„ë¡ í•©ë‹ˆë‹¤.
-![PUSHí•˜ê¸°](https://user-images.githubusercontent.com/8435910/51955866-ce7d9680-2488-11e9-9929-b3c186bde492.GIF)
+5. °³¹ßÀÚ1Àº ¼öÁ¤µÈ ÄÚµå¸¦ PUSHÇÕ´Ï´Ù.
+ÀÌ¶§ Commit Message¸¦ Àß ÀÛ¼ºÇÏµµ·Ï ÇÕ´Ï´Ù.
+![PUSHÇÏ±â](https://user-images.githubusercontent.com/8435910/51955866-ce7d9680-2488-11e9-9929-b3c186bde492.GIF)
 
-6. ê°œë°œìž1ì€ ë³€ê²½ëœ ì½”ë“œë¥¼ ë°˜ì˜í•˜ê¸° ìœ„í•˜ì—¬ Pull Requestë¥¼ ìƒì„±í•©ë‹ˆë‹¤.(Feature ë¸Œëžœì¹˜ -> refactoring ë¸Œëžœì¹˜)
-![Pull Request ìƒì„±](https://user-images.githubusercontent.com/8435910/51956017-65e2e980-2489-11e9-90db-32d03750282f.GIF)
+6. °³¹ßÀÚ1Àº º¯°æµÈ ÄÚµå¸¦ ¹Ý¿µÇÏ±â À§ÇÏ¿© Pull Request¸¦ »ý¼ºÇÕ´Ï´Ù.(Feature ºê·£Ä¡ -> refactoring ºê·£Ä¡)
+![Pull Request »ý¼º](https://user-images.githubusercontent.com/8435910/51956017-65e2e980-2489-11e9-90db-32d03750282f.GIF)
 
-7. ê°œë°œìž1ì€ ë³¸ë¬¸ì— ê´€ë ¨ ì´ìŠˆë¥¼ ì—°ê²°í•©ë‹ˆë‹¤.
-ê´€ë ¨ì´ìŠˆ : #1
+7. °³¹ßÀÚ1Àº º»¹®¿¡ °ü·Ã ÀÌ½´¸¦ ¿¬°áÇÕ´Ï´Ù.
+°ü·ÃÀÌ½´ : #1
 
-8. ê°œë°œìž1ì€ ê°œë°œìž ìžê°€ ì ê²€ì„ ì‹¤ì‹œí•©ë‹ˆë‹¤.
+8. °³¹ßÀÚ1Àº °³¹ßÀÚ ÀÚ°¡ Á¡°ËÀ» ½Ç½ÃÇÕ´Ï´Ù.
 ![selfcheck](https://user-images.githubusercontent.com/8435910/51969438-bf620d00-24b7-11e9-8df4-45e2acd0d295.GIF)
 
-9. Reviewersë¡œ ê°œë°œìž2ë¥¼ ì§€ì •í•˜ê³  Assigneesë¡œ ê°œë°œë¦¬ë”ë¥¼ ì§€ì •í•©ë‹ˆë‹¤.
+9. Reviewers·Î °³¹ßÀÚ2¸¦ ÁöÁ¤ÇÏ°í Assignees·Î °³¹ß¸®´õ¸¦ ÁöÁ¤ÇÕ´Ï´Ù.
 ![assign](https://user-images.githubusercontent.com/8435910/51969457-ce48bf80-24b7-11e9-9f8c-737d52594398.GIF)
 
-10. ê°œë°œìž2ëŠ” ë¦¬ë·°ë¥¼ ìˆ˜í–‰í•˜ê³  ê°œë°œë¦¬ë”ëŠ” ê·¸ ê²°ê³¼ë¥¼ í™•ì¸í•˜ê³  Merge í•©ë‹ˆë‹¤.
-ë¦¬ë·°ê°€ ìˆ˜í–‰ë˜ì§€ ì•Šìœ¼ë©´ ì•„ëž˜ì™€ ê°™ì´ Merge ë²„íŠ¼ì´ ë¹„í™œì„±í™”ë˜ì–´ Mergeê°€ ë¶ˆê°€ëŠ¥í•©ë‹ˆë‹¤.
+10. °³¹ßÀÚ2´Â ¸®ºä¸¦ ¼öÇàÇÏ°í °³¹ß¸®´õ´Â ±× °á°ú¸¦ È®ÀÎÇÏ°í Merge ÇÕ´Ï´Ù.
+¸®ºä°¡ ¼öÇàµÇÁö ¾ÊÀ¸¸é ¾Æ·¡¿Í °°ÀÌ Merge ¹öÆ°ÀÌ ºñÈ°¼ºÈ­µÇ¾î Merge°¡ ºÒ°¡´ÉÇÕ´Ï´Ù.
 ![needreview](https://user-images.githubusercontent.com/8435910/52025478-bc166200-2547-11e9-82a7-4e9c3f25d699.GIF)
 
-ë¦¬ë·°ì–´ëŠ” ë³€ê²½ëœ ì½”ë“œë¥¼ í™•ì¸í•˜ì—¬ ë¦¬ë·°ì˜ê²¬ì„ ìž…ë ¥í•˜ê³  ì•„ëž˜ì™€ ê°™ì´ ë¦¬ë·° ì™„ë£Œ ì²˜ë¦¬í•©ë‹ˆë‹¤.
+¸®ºä¾î´Â º¯°æµÈ ÄÚµå¸¦ È®ÀÎÇÏ¿© ¸®ºäÀÇ°ßÀ» ÀÔ·ÂÇÏ°í ¾Æ·¡¿Í °°ÀÌ ¸®ºä ¿Ï·á Ã³¸®ÇÕ´Ï´Ù.
 ![comment](https://user-images.githubusercontent.com/8435910/52025648-84f48080-2548-11e9-8a45-755ec30f355a.GIF)
 
 ![completereview](https://user-images.githubusercontent.com/8435910/52025784-051ae600-2549-11e9-9ec3-b5421c7cdba2.GIF)
@@ -237,11 +237,11 @@ public class List1 {
     
 
 
-11. ë‹¤ìŒ ì´ìŠˆë“¤ì„ ë™ì¼í•œ ë°©ë²•ìœ¼ë¡œ ìˆœì„œëŒ€ë¡œ ìˆ˜í–‰í•´ ë´…ë‹ˆë‹¤.
+11. ´ÙÀ½ ÀÌ½´µéÀ» µ¿ÀÏÇÑ ¹æ¹ýÀ¸·Î ¼ø¼­´ë·Î ¼öÇàÇØ º¾´Ï´Ù.
 
-- ìƒ˜í”Œ_Ifë¬¸ ë¶€ì •í˜•ì„ ê¸ì •í˜•ìœ¼ë¡œ ë³€ê²½ : ê°œë°œìž2
+- »ùÇÃ_If¹® ºÎÁ¤ÇüÀ» ±àÁ¤ÇüÀ¸·Î º¯°æ : °³¹ßÀÚ2
 <pre><code>
-//ë³€ê²½ì „ ì½”ë“œ
+//º¯°æÀü ÄÚµå
 package collection;
 
 public class List1 {
@@ -270,7 +270,7 @@ public class List1 {
 }
 </code></pre>
 <pre><code>
-//ë³€ê²½í›„ ì½”ë“œ
+//º¯°æÈÄ ÄÚµå
 package collection;
 
 public class List1 {
@@ -297,9 +297,9 @@ public class List1 {
 }
 </code></pre>
 
-- ìƒ˜í”Œ_ifë¬¸ ì•ˆì˜ ë©”ì†Œë“œ ì¶”ì¶œ : ê°œë°œìž1
+- »ùÇÃ_if¹® ¾ÈÀÇ ¸Þ¼Òµå ÃßÃâ : °³¹ßÀÚ1
 <pre><code>
-//ë³€ê²½ì „ ì½”ë“œ
+//º¯°æÀü ÄÚµå
 package collection;
 
 public class List1 {
@@ -326,7 +326,7 @@ public class List1 {
 }
 </code></pre>
 <pre><code>
-//ë³€ê²½í›„ ì½”ë“œ
+//º¯°æÈÄ ÄÚµå
 package collection;
 
 public class List1 {
@@ -357,11 +357,11 @@ public class List1 {
 </code></pre>
 
 
-- ìƒ˜í”Œ_Ifì ˆ ì•ˆì˜ ë¡œì§ ë©”ì†Œë“œ ì¶”ì¶œ : ê°œë°œìž2
+- »ùÇÃ_IfÀý ¾ÈÀÇ ·ÎÁ÷ ¸Þ¼Òµå ÃßÃâ : °³¹ßÀÚ2
 
 
 <pre><code>
-//ë³€ê²½ì „ ì½”ë“œ
+//º¯°æÀü ÄÚµå
 package collection;
 
 public class List1 {
@@ -391,7 +391,7 @@ public class List1 {
 }
 </code></pre>
 <pre><code>
-//ë³€ê²½í›„ ì½”ë“œ
+//º¯°æÈÄ ÄÚµå
 package collection;
 
 public class List1 {
@@ -425,15 +425,15 @@ public class List1 {
 }
 </code></pre>
 
-12. ê°œë°œë¦¬ë”ëŠ” Release ë¸Œëžœì¹˜ë¥¼ Refactoring ë¸Œëžœì¹˜ë¥¼ ê¸°ë°˜ìœ¼ë¡œ ìƒì„±í•©ë‹ˆë‹¤.(ë¸Œëžœì¹˜ëª… : íŒ€ëª…_release_yyyymmdd)
+12. °³¹ß¸®´õ´Â Release ºê·£Ä¡¸¦ Refactoring ºê·£Ä¡¸¦ ±â¹ÝÀ¸·Î »ý¼ºÇÕ´Ï´Ù.(ºê·£Ä¡¸í : ÆÀ¸í_release_yyyymmdd)
 
-13. Releace ë²„ì „ì— ëŒ€í•˜ì—¬ í…ŒìŠ¤íŠ¸ë¥¼ ìˆ˜í–‰í•˜ë˜ ì¤‘ ê²°í•¨ì´ ë°œê²¬ë˜ì–´ ì¡°ì¹˜í•©ë‹ˆë‹¤.
-    ìœ„ì™€ ê°™ì€ ë°©ë²•ìœ¼ë¡œ Feature ë¸Œëžœì¹˜ë¥¼ ìƒì„±í•˜ê³  Refactoring ë¸Œëžœì¹˜ì— Merge í•©ë‹ˆë‹¤.(ê°œë°œìž1 ìˆ˜í–‰)
+13. Releace ¹öÀü¿¡ ´ëÇÏ¿© Å×½ºÆ®¸¦ ¼öÇàÇÏ´ø Áß °áÇÔÀÌ ¹ß°ßµÇ¾î Á¶Ä¡ÇÕ´Ï´Ù.
+    À§¿Í °°Àº ¹æ¹ýÀ¸·Î Feature ºê·£Ä¡¸¦ »ý¼ºÇÏ°í Refactoring ºê·£Ä¡¿¡ Merge ÇÕ´Ï´Ù.(°³¹ßÀÚ1 ¼öÇà)
     
     
 
 <pre><code>
-//ë³€ê²½ì „ ì½”ë“œ
+//º¯°æÀü ÄÚµå
 package collection;
 
 public class List1 {
@@ -469,7 +469,7 @@ public class List1 {
 
 
 <pre><code>
-//ë³€ê²½í›„ ì½”ë“œ
+//º¯°æÈÄ ÄÚµå
 package collection;
 
 public class List1 {
@@ -507,16 +507,16 @@ public class List1 {
 }
 </code></pre>    
 
-14. ê°œë°œë¦¬ë”ëŠ” ë¡œì»¬ì—ì„œ Chetty Pick ê¸°ëŠ¥ì„ ì´ìš©í•˜ì—¬ ë³€ê²½ëœ Commitì„ Release ë²„ì „ì— ë°˜ì˜í•©ë‹ˆë‹¤.
-    ë¸Œëžœì¹˜ idëŠ” ì»¤ë§¨ë“œì—ì„œ ë‹¤ìŒëª…ë ¹ì–´ë¥¼ ì‹¤í–‰í•˜ì—¬ í™•ì¸
+14. °³¹ß¸®´õ´Â ·ÎÄÃ¿¡¼­ Chetty Pick ±â´ÉÀ» ÀÌ¿ëÇÏ¿© º¯°æµÈ CommitÀ» Release ¹öÀü¿¡ ¹Ý¿µÇÕ´Ï´Ù.
+    ºê·£Ä¡ id´Â Ä¿¸Çµå¿¡¼­ ´ÙÀ½¸í·É¾î¸¦ ½ÇÇàÇÏ¿© È®ÀÎ
     git log --pretty=oneline
 <pre><code>
-D:\git\listrefactoring>git checkout íŒ€ëª…_release_20190201
-Switched to a new branch 'íŒ€ëª…_release_20190201'
-Branch 'íŒ€ëª…_release_20190201' set up to track remote branch 'íŒ€ëª…_release_20190201' from 'origin'.
+D:\git\listrefactoring>git checkout ÆÀ¸í_release_20190201
+Switched to a new branch 'ÆÀ¸í_release_20190201'
+Branch 'ÆÀ¸í_release_20190201' set up to track remote branch 'ÆÀ¸í_release_20190201' from 'origin'.
 
 D:\git\listrefactoring>git cherry-pick  59eac16
-[íŒ€ëª…_release_20190201 43ffa86] extract method
+[ÆÀ¸í_release_20190201 43ffa86] extract method
  Author: Pablo <dongsik2026@naver.com>
  Date: Thu Jan 31 12:42:56 2019 +0900
  1 file changed, 21 insertions(+), 12 deletions(-)
@@ -524,15 +524,7 @@ D:\git\listrefactoring>git cherry-pick  59eac16
  D:\git\listrefactoring>git push
 </code></pre>    
  
-15. ê°œë°œë¦¬ë”ëŠ” Releaseì—ì„œ ìƒˆë¡œìš´ ë¦´ë¦¬ì¦ˆ ë²„ì „ì„ ìƒì„±í•©ë‹ˆë‹¤.
+15. °³¹ß¸®´õ´Â Release¿¡¼­ »õ·Î¿î ¸±¸®Áî ¹öÀüÀ» »ý¼ºÇÕ´Ï´Ù.
 ![createrelease](https://user-images.githubusercontent.com/8435910/52030182-f557cd80-2559-11e9-8054-358f9ec02bfd.GIF)
-ë‹¤ìŒê³¼ ê°™ì´ ì •ê¸° ë°˜ì˜ ë‚´ìš©ì´ í™•ì¸ë©ë‹ˆë‹¤.
+´ÙÀ½°ú °°ÀÌ Á¤±â ¹Ý¿µ ³»¿ëÀÌ È®ÀÎµË´Ï´Ù.
 ![releasecomplete](https://user-images.githubusercontent.com/8435910/52030233-3fd94a00-255a-11e9-92da-bd4dab05889a.GIF)
-
-
-  
-
-  
-  
-
-
